@@ -1,0 +1,12 @@
+# To check the Docker version installed
+docker --version
+# To show all Docker images
+docker image ls
+# To show the running containers
+docker ps
+# To show all the containers
+docker ps -a
+# To pull docker image
+docker pull image_name
+# To run a container
+docker run image_id
