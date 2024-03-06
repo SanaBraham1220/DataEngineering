@@ -6,6 +6,8 @@ docker image ls
 docker ps
 # To show all the containers
 docker ps -a
+# To show all the containers id
+docker ps -a -q
 # To pull docker image
 docker pull image_name
 or
