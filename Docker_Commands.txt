@@ -18,8 +18,12 @@ or
 docker run image_name
 # Delete a container
 docker rm container_id
-# Delete a running container
+# Delete a running container 
+force removing:
 docker rm container_id -f
+or stop the container then remove it
+docker stop container_id
+docker rm container_id
 # Delete all stopped container
 docker container prune
 
