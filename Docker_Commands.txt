@@ -10,5 +10,12 @@ docker ps -a
 docker pull image_name
 or
 docker pull image_name:tag
-# To run a container
+# To run an image
 docker run image_id
+or
+docker run image_name
+# Delete a container
+docker rm container_id
+# Delete a running container
+docker rm container_id -f
+
