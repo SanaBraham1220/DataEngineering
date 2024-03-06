@@ -8,5 +8,7 @@ docker ps
 docker ps -a
 # To pull docker image
 docker pull image_name
+or
+docker pull image_name:tag
 # To run a container
 docker run image_id
